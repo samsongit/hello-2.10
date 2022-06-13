@@ -12389,22 +12389,27 @@ $as_echo "#define COPYRIGHT_YEAR 2014
 " >>confdefs.h
 
 
- if test -d "$srcdir/.git"; then
-  BUILD_FROM_GIT_TRUE=
-  BUILD_FROM_GIT_FALSE='#'
-else
-  BUILD_FROM_GIT_TRUE='#'
-  BUILD_FROM_GIT_FALSE=
-fi
+# if test -d "$srcdir/.git"; then
+#  BUILD_FROM_GIT_TRUE=
+#  BUILD_FROM_GIT_FALSE='#'
+#else
+#  BUILD_FROM_GIT_TRUE='#'
+#  BUILD_FROM_GIT_FALSE=
+#fi
 
- if test -d "$srcdir/.git" && test $cross_compiling = yes; then
-  GIT_CROSS_COMPILING_TRUE=
-  GIT_CROSS_COMPILING_FALSE='#'
-else
-  GIT_CROSS_COMPILING_TRUE='#'
-  GIT_CROSS_COMPILING_FALSE=
-fi
+# if test -d "$srcdir/.git" && test $cross_compiling = yes; then
+#  GIT_CROSS_COMPILING_TRUE=
+#  GIT_CROSS_COMPILING_FALSE='#'
+#else
+#  GIT_CROSS_COMPILING_TRUE='#'
+#  GIT_CROSS_COMPILING_FALSE=
+#fi
 
+BUILD_FROM_GIT_TRUE='#'
+BUILD_FROM_GIT_FALSE=
+
+GIT_CROSS_COMPILING_TRUE='#'
+GIT_CROSS_COMPILING_FALSE=
 
 if test $cross_compiling = no; then :
 
