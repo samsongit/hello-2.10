@@ -23,3 +23,9 @@ Description: example package based on GNU hello
  Seriously, though: this is an example of how to do a Debian package.
  It is the Debian version of the GNU Project's `hello world' program
  (which is itself an example for the GNU Project).
+
+Package: hello-samson
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: test debian package
+
