@@ -1,3 +1,9 @@
+hello (2.10-2ubuntu3) focal; urgency=medium
+
+  * upgrade test
+
+ -- root <root@238f17e5419d>  Mon, 13 Jun 2022 16:12:25 +0000
+
 hello (2.10-2ubuntu2) eoan; urgency=medium
 
   * Handle exit code 77 for skipped autopkgtests.
